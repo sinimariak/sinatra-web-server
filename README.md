@@ -17,17 +17,11 @@ This Ruby Sinatra web skeleton was re-furbished for rapid prototyping a web API 
 >**NOTE**:
 >This guide assumes you are good with Ruby, Heroku, Bluemix and understands MVC architecture patterns.
 
-<<<<<<< HEAD
-=======
 # To go for platform specific code, please visit these pages:
 1. Heroku - https://github.com/hollowaykeanho/sinatra-web-server/tree/heroku
 2. Bluemix - https://github.com/hollowaykeanho/sinatra-web-server/tree/bluemix
 3. Cloud9 - continue to read README.
 
-# Master Branch
-> Master branch currently based on Heroku platform. Please use with caution.
-
->>>>>>> 7a27254... updated README.md to describe cloud-9 support
 <br><br>
 ## Common Setup
 1) Perform a git clone to this repo using the following link:
