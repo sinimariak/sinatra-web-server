@@ -16,7 +16,8 @@
 
 <h3 class="purple" "links-position">
 	<% unless @urls.nil? %> 
-	<%= 'http://localhost:9393/' + @urls.last.shortened_url %></h3>
+	<%= 'http://localhost:9393/' + @urls.last.shortened_url %>
+	<% end %> </h3>
 
 <%= "Total number of links shortened: #{Url.all.length}" %>	
 
