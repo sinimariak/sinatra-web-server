@@ -1,2 +1,36 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<img src="https://image.freepik.com/free-icon/pirate-emoticon-face-with-one-covered-eye-in-square-outline_318-58517.jpg" class="logo"/>
+
+<h1>Shorten your URL </h1>
+
+<form action="/urls" method="POST" class="form-position" >
+	<input type ="text" name="long_url" class="shorten-input" placeholder="Paste your link here!">
+	<input type="submit" value="Shorten!" class="button" "right">
+</form>
+
+	<% unless session['error_message'].nil? %>
+		<% session['error_message'].each do |specific_message, value| %>
+			<h2><%= value[0] %></h2>
+		<% end %>
+	<% session['error_message'] = nil %>
+	<% end %>
+
+<h3 class="purple" "links-position"><%= 'http://localhost:9393/' + @urls.last.shortened_url %></h3>
+
+<%= "Total number of links shortened: #{Url.all.length}" %>	
+
+		
+<!-- Commented out not to search 500k entry database...	
+<h3 class="gray">Latest searches</h3>
+	
+	<% @urls.each do |url| %>
+	<ul>
+	<a href= <%= url.long_url %> target="_blank"> <%= url.long_url %> </a>
+	</ul>
+			< % 'http://localhost:9393/' + url.shortened_url %>
+			< % 'Clicked ' + url.click_count + ' times' %>
+
+	 <% end %>
+</div>
+ -->
+
+

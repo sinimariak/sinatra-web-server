@@ -1,0 +1,102 @@
+body {
+	margin-left: 30px;
+	margin-right: 30px;
+	font-family: brandon-grotesque,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:  #8000ff;
+    top: 50;
+    position: relative;
+}
+
+.logo {
+    max-width: 100px; 
+    max-height: 100px;
+    float: left;
+}
+
+.form-position {
+	top: 40;
+    position: relative;
+    align-content: center;
+}
+
+h2 {
+	display: block;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:  red;
+    top: 20;
+    position: relative;
+
+}
+
+
+h3 {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+
+.gray {
+	color:  #999999;
+}
+
+.purple {
+	color: #8000ff;
+}
+
+.links-position {
+	top: 60;
+    position: relative;
+}
+
+.right {
+	float: right;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 14.4px 23px;
+  font-family: proxima-nova,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.shorten-input:focus, input.text:focus {
+    color: #350066;
+    background-color: #f3e6ff;
+    /*box-shadow: 0 0 0 1px rgba(238,97,35,.75),0 0 4px 2px rgba(238,97,35,.2),inset 0 1px 2px 0 rgba(238,97,35,.2);*/
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 16px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: brandon-grotesque,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #999999
+    line-height: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    -webkit-box-shadow: 0 0 0 1px # #8000ff;
+    box-shadow: 0 0 0 1px # #8000ff;
+    text-rendering: optimizelegibility;
+    border: 0 !important;
+    float: right;
+}
+
+p {
+	color: black
+	font-family: brandon-grotesque,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
