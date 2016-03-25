@@ -21,7 +21,6 @@ require "sinatra/reloader" if development?
 require 'erb'
 require 'uri'
 require 'securerandom'
-require 'byebug'
 require 'open-uri'
 require 'csv'
 
